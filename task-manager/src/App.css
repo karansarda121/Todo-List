@@ -1,0 +1,31 @@
+/* src/styles.css */
+
+.App {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+input[type="text"], select, button {
+  margin: 5px;
+  padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+button {
+  cursor: pointer;
+}
