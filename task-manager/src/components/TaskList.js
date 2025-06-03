@@ -25,14 +25,14 @@ function TaskList({ tasks, deleteTask, toggleCompletion, addTask }) {
     setShowModal(false);
   };
 
-  // Handle Popup Display
+  // Handled Popup Display
   const handleAddTask = (title, priority) => {
     addTask(title, priority);
     setShowPopup(true); // Show popup when task is added
     setTimeout(() => setShowPopup(false), 3000); // Hide popup after 3 seconds
   };
 
-  // Scroll effect logic
+  
   const getScrollEffect = (index) => {
     return {
       opacity: 1,

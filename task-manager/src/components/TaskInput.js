@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { toast, ToastContainer } from "react-toastify"; // Import toast functions
-import "react-toastify/dist/ReactToastify.css"; // Import toast styles
+import { toast, ToastContainer } from "react-toastify"; 
+import "react-toastify/dist/ReactToastify.css"; 
 
 function TaskInput({ addTask }) {
   const [title, setTitle] = useState("");
