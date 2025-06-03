@@ -37,7 +37,7 @@ Follow these steps to set up and run the application locally:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/task-manager.git
+   git clone https://github.com/karansarda121/Todo-List.git
 
 2. # Navigate to the project directory
    cd task-manager
